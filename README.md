@@ -34,7 +34,7 @@ LangChain-based agent for querying and analyzing energy consumption data, with t
 
 ## Publications
 
-**A Comprehensive Survey on the Role of Artificial Intelligence in Solar Energy Processes** — 2022 IEEE 7th International Conference for Convergence in Technology (I2CT)
+**[A Comprehensive Survey on the Role of Artificial Intelligence in Solar Energy Processes](https://ieeexplore.ieee.org/document/9824314)** — 2022 IEEE 7th International Conference for Convergence in Technology (I2CT)
 
 ## Reach Me
 
