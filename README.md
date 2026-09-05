@@ -40,7 +40,6 @@ LangChain-based agent for querying and analyzing energy consumption data, with t
 
 - Email: **sandeep.workmail24@gmail.com**
 - LinkedIn: [sandeep-24-au](linkedin.com/in/sandeep-24-au/)
-- GitHub: [SandeepKr24](github.com/SandeepKr24)
 
 ---
 
