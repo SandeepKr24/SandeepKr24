@@ -24,9 +24,12 @@
 ## Featured Projects
 
 ### 🏎️ [GridMind – AI Powered Race Analyst](https://f1gridmind.vercel.app/)
-End-to-end natural-language F1 analytics pipeline (Python, FastF1, PostgreSQL, LLM). Ingests 1.4M+ telemetry rows per race, secures an LLM-to-SQL agent with `sqlglot` AST validation and per-session Postgres Row-Level Security, and includes typed error handling, token cost caps, and structured logging.
+AI-powered F1 race analyst (Next.js, FastAPI, PostgreSQL). LLM-generated SQL is validated with sqlglot and executed under a read-only role across 16 tables. On-demand ingestion runs background jobs that fetch session timing data in 20s–2 min, with a partial unique index preventing duplicate jobs. Exposes 15 REST endpoints, backed by 1,129 tests and fact-checked AI race reports.
 
-### 🩺 [FieldMedic – AI Clinical Decision Support System](github.com/SandeepKr24)
+### 🔍 [ForzaHelper – Car Intelligence Platform](https://forzahelper-fh6.vercel.app/)
+Natural-language car search for Forza Horizon 6 (FastAPI, LangChain, Supabase PostgreSQL). LangChain extracts Pydantic-validated filters that a deterministic builder compiles into parameterised SQL over 635 cars, with a rule-based fallback. OpenTelemetry tracing cut page load from 1300ms to 180ms by batching 14 database round trips into 2. Exposes 9 REST endpoints, backed by 132 tests.
+
+### 🩺 [FieldMedic – AI Clinical Decision Support System](https://github.com/SandeepKr24/FieldMedic)
 RAG-based clinical triage system (FastAPI, Streamlit, PostgreSQL/pgvector, Gemini). Semantic retrieval over 300+ medical knowledge chunks using Sentence Transformers, combined with an AI agent pipeline for structured triage recommendations. Containerized with Docker Compose across 3 services and 4 REST API endpoints.
 
 ## Publications
@@ -52,7 +55,7 @@ RAG-based clinical triage system (FastAPI, Streamlit, PostgreSQL/pgvector, Gemin
 
 **Gen AI**
 
-`LangChain` `Prompt Engineering` `RAG` `Agentic AI` `MCP Server` `CrewAI`
+`LangChain` `Prompt Engineering` `RAG` `Agentic AI` `MCP Server` `CrewAI` `OpenTelemetry`
 
 **Backend**
 
@@ -60,7 +63,7 @@ RAG-based clinical triage system (FastAPI, Streamlit, PostgreSQL/pgvector, Gemin
 
 **Databases & Cloud**
 
-`PostgreSQL` `MongoDB` `MySQL` `FAISS` `Pinecone` `AWS` `Docker` `Git` `Vercel`
+`PostgreSQL` `MongoDB` `MySQL` `FAISS` `AWS` `Docker` `Git` `Vercel` `Railway` 
 
 ---
 
