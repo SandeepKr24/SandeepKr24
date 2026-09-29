@@ -23,7 +23,7 @@
 
 ## Featured Projects
 
-### 🏎️ [GridMind – AI Powered Race Analyst]([github.com/SandeepKr24](https://f1gridmind.vercel.app/))
+### 🏎️ [GridMind – AI Powered Race Analyst](https://f1gridmind.vercel.app/)
 End-to-end natural-language F1 analytics pipeline (Python, FastF1, PostgreSQL, LLM). Ingests 1.4M+ telemetry rows per race, secures an LLM-to-SQL agent with `sqlglot` AST validation and per-session Postgres Row-Level Security, and includes typed error handling, token cost caps, and structured logging.
 
 ### 🩺 [FieldMedic – AI Clinical Decision Support System](github.com/SandeepKr24)
