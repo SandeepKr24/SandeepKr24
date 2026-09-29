@@ -23,14 +23,11 @@
 
 ## Featured Projects
 
-### 🏎️ [PitWall – AI Powered Race Analyst](github.com/SandeepKr24)
+### 🏎️ [GridMind – AI Powered Race Analyst]([github.com/SandeepKr24](https://f1gridmind.vercel.app/))
 End-to-end natural-language F1 analytics pipeline (Python, FastF1, PostgreSQL, LLM). Ingests 1.4M+ telemetry rows per race, secures an LLM-to-SQL agent with `sqlglot` AST validation and per-session Postgres Row-Level Security, and includes typed error handling, token cost caps, and structured logging.
 
 ### 🩺 [FieldMedic – AI Clinical Decision Support System](github.com/SandeepKr24)
 RAG-based clinical triage system (FastAPI, Streamlit, PostgreSQL/pgvector, Gemini). Semantic retrieval over 300+ medical knowledge chunks using Sentence Transformers, combined with an AI agent pipeline for structured triage recommendations. Containerized with Docker Compose across 3 services and 4 REST API endpoints.
-
-### ⚡ Agentic AI Workflow for Energy Consumption Analytics
-LangChain-based agent for querying and analyzing energy consumption data, with tool-calling for dynamic SQL execution and anomaly detection. Improved task completion accuracy by 25% and cut manual analysis effort by 60% through automated reporting.
 
 ## Publications
 
