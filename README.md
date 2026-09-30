@@ -39,7 +39,8 @@ RAG-based clinical triage system (FastAPI, Streamlit, PostgreSQL/pgvector, Gemin
 ## Reach Me
 
 - Email: **sandeep.workmail24@gmail.com**
-- LinkedIn: [sandeep-24-au](linkedin.com/in/sandeep-24-au/)
+- LinkedIn: [Sandeep Kumar](linkedin.com/in/sandeep-24-au/)
+- [My Website](https://sandeepkumar24.vercel.app/)
 
 ---
 
